@@ -1,0 +1,19 @@
+# Copy to ~/.config/ghsync/config and chmod 600. This is trusted shell syntax.
+GITHUB_API=https://api.github.com
+GITHUB_TOKEN_FILE=$HOME/.config/ghsync/github.token
+ORG_COUNT=0
+# ORG_1=example
+INCLUDE_FORKS=yes
+INCLUDE_ARCHIVED=yes
+# Shell case pattern against owner/repo, e.g. 'acme/*'
+REPO_FILTER=''
+ACTIVE_INTERVAL=3600
+QUIET_INTERVAL=86400
+SYSLOG=no
+STATE_DIR=$HOME/.local/state/ghsync
+GITEA_COUNT=1
+GITEA_1_URL=https://gitea.example.net
+GITEA_1_USER=mirrorbot
+GITEA_1_TOKEN_FILE=$HOME/.config/ghsync/gitea.token
+BARE_COUNT=0
+# BARE_1_DESTINATIONS_FILE=$HOME/.config/ghsync/bare-destinations
